@@ -1,0 +1,78 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* strt the navigation menu */
+.nav-logo{
+    text-align: left;
+}
+.nav-logo img{
+    width: 60px;
+    height: auto;
+}
+.nav-head h1 {
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: right;
+}
+/* .nav-head h1:not(:hover){
+    box-shadow: none;
+} */
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    background-color: transparent;
+}
+/* End the Navigation Menu */
+/* About me section start here */
+.profile-img{
+    margin-top: 100px;
+}
+.profile-img img{
+    width: 250px;
+    height: auto;
+}
+.aboutme-desc{
+    margin-top: 5px;
+}
+.aboutme-desc p{
+    text-align: left;
+}
+.cv-button{
+    float: left;
+}
+/* About me section End here */
+
+/* professional expricen section */
+.prof-exprience{
+    background-color: #30c39e;
+}
+.prof-exprience::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* achivment section */
+.achibment-desc i{
+    margin: 10px 6px;
+    text-align: center; 
+    display: inline-block;
+}
+.fa-brands{
+    background-color: #f85a40;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    width: 100%;
+}
